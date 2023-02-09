@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding-top: 0px;
+}
+.box {
+  position: relative;
+  width: 825px;
+  margin: 40px auto;
+  border: 4px solid black;
+}
+
+.title {
+  text-align: center;
+  background-color: rgb(185, 184, 184);
+  height: 30px;
+}
+
+h2::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  position: absolute;
+  left: -30px;
+  top: -15px;
+}
+.head1 {
+  display: flex;
+  width: 825px;
+}
+.img {
+  padding-bottom: 30px;
+}
+.first {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.black {
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  padding: 0px;
+  position: absolute;
+  left: 33%;
+  bottom: 35%;
+}
+
+.blue {
+  background-color: blue;
+  width: 15px;
+  padding: 0px;
+  height: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 36%;
+  bottom: 35%;
+}
+
+.red {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  position: absolute;
+  left: 39%;
+  bottom: 35%;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  left: 42%;
+  bottom: 35%;
+}
+
+.green {
+  background-color: green;
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+  bottom: 35%;
+}
+
+.brown {
+  background-color: brown;
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  left: 48%;
+  bottom: 35%;
+}
+
+.ship {
+  color: rgb(136, 134, 134);
+}
+
+a {
+  color: black;
+  position: relative;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.product,
+.title {
+  text-transform: uppercase;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  width: 825px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+h5 {
+  font-size: 20px;
+}
+
+li {
+  list-style: square;
+  padding-top: 10px;
+}

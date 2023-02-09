@@ -1,0 +1,160 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(107, 107, 201);
+}
+
+h2::after {
+  content: "TOP";
+  font-size: 20px;
+  background-color: yellow;
+  color: black;
+  position: relative;
+  top: -30px;
+  left: 30px;
+  width: 40px;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+nav {
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+li {
+  font-size: 20px;
+}
+
+.related-list {
+  list-style: none;
+}
+
+.author-nm {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.related {
+  border-top: 5px black;
+  text-align: center;
+}
+
+ul,
+ol {
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: rgb(107, 107, 201);
+}
+
+aside {
+  margin-top: 10px;
+  border-top: 5px solid black;
+  background-color: #f7f7f7;
+  width: 50%;
+}
+div {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn2 {
+  position: absolute;
+  bottom: 40px;
+  width: 50px;
+  height: 40px;
+  text-decoration: double;
+  right: 50px;
+}
+
+body {
+  position: relative;
+}
+
+/* FLOATS */
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+  padding: 10px;
+}
+
+h2 {
+  padding-top: 50px;
+}
+
+.head {
+  background-color: #f7f7f7;
+  height: 50px;
+}
+
+.imgblog {
+  float: left;
+}
+
+.blog {
+  float: left;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+
+article {
+  float: left;
+  margin-left: 0px;
+  width: 850px;
+}
+
+aside {
+  float: right;
+  width: 300px;
+}
+
+footer {
+  clear: both;
+  padding-top: 20px;
+}

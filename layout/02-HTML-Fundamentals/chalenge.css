@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  padding-top: 0px;
+  box-sizing: content-box;
+}
+.title {
+  text-align: center;
+  background-color: rgb(185, 184, 184);
+  height: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+
+h2::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  position: absolute;
+  left: -30px;
+  top: -15px;
+}
+
+.first {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.b2 {
+  position: relative;
+}
+
+.black {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  padding: 0px;
+  position: absolute;
+  left: 540px;
+  bottom: 410px;
+}
+
+.blue {
+  background-color: blue;
+  width: 10px;
+  padding: 0px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  left: 560px;
+  bottom: 410px;
+}
+
+.red {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  padding: 0px;
+  position: absolute;
+  left: 580px;
+  bottom: 410px;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  left: 600px;
+  bottom: 410px;
+}
+
+.green {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  left: 620px;
+  bottom: 410px;
+}
+
+.brown {
+  background-color: brown;
+  width: 10px;
+  height: 10px;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  left: 640px;
+  bottom: 410px;
+}
+
+.img {
+  padding-top: 10px;
+}
+
+.box {
+  border: 4px solid black;
+}
+
+.ship {
+  color: rgb(136, 134, 134);
+}
+
+a {
+  color: black;
+  position: relative;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.product,
+.title {
+  text-transform: uppercase;
+}
+
+.product {
+  padding-top: 20px;
+  position: relative;
+}
+
+button {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  width: 805px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+h5 {
+  font-size: 20px;
+}
+
+li {
+  list-style: square;
+  padding-top: 10px;
+}
+
+li:last-child {
+  padding-bottom: 5px;
+}
+
+div {
+  width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+/* FLOAT */
+
+.img {
+  float: left;
+  display: inline-block;
+  width: 250px;
+  padding-top: 0px;
+}
+
+.next {
+  float: left;
+  width: 240px;
+  padding-right: 300px;
+  margin-left: 0px;
+  padding: 10px 20px;
+}
+
+.third {
+  float: left;
+  width: 230px;
+  position: absolute;
+  top: 20px;
+  right: 300px;
+  padding: 50px 20px;
+}
+
+.heading {
+  float: left;
+  padding-bottom: 0px;
+  bottom: 380px;
+}
+
+.ship {
+  float: right;
+  padding-bottom: 0px;
+}
+
+.first {
+  clear: both;
+}
