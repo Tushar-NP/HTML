@@ -415,6 +415,10 @@ body {
   background-color: #45260a;
   border: none;
   color: #fdf2e9;
+  transition: transform 0.1s linear;
+}
+.form-btn:hover {
+  transform: scale(1.2);
 }
 /* ########### FOOTER ########### */
 .footer-content {
