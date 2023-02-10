@@ -317,3 +317,21 @@
     height: 15rem;
   }
 }
+@media (max-width: 23em) {
+  .head-btn {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-heading {
+    margin: 1.5rem 0;
+  }
+}
+@media (max-width: 18em) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+  }
+}
